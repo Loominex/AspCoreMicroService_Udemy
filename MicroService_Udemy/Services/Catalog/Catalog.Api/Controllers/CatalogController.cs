@@ -51,7 +51,7 @@ namespace Catalog.Api.Controllers
         {
             var products = await _repository.GetProductByCategory(category);
             return Ok(products);
-        }
+        } 
 
         [HttpPost]
         [ProducesResponseType(typeof(Product), (int)HttpStatusCode.OK)]
