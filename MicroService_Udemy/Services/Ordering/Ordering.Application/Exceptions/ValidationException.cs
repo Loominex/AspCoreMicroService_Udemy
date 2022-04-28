@@ -1,4 +1,5 @@
 ﻿using FluentValidation.Results;
+using Ordering.Application.Features.Commands.CheckoutOrder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
