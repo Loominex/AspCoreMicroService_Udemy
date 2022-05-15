@@ -1,1 +1,1 @@
-# AspCoreMicroService_Udemy
+This is my first hands-on experience using microservice and docker that learned from a Udemy course teaching by Mehmet Ozkaya, In this course Iv'e used a variety kind of tools,technologies and architectures such as rabbitMq, MassTransit, Sq Server, Postgressql, redis, ocelot gateway, cqrs, mediateR, etc.
