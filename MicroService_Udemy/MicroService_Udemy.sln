@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "Buildi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ApiGateways", "ApiGateways", "{B04CEAE4-4643-4DBE-9D2A-EA6F79162C58}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{94122B17-472B-4FF6-9EC9-2B101C33F19A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OcelotApiGateway", "ApiGateways\OcelotApiGateway\OcelotApiGateway.csproj", "{94122B17-472B-4FF6-9EC9-2B101C33F19A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shopping.Aggregator", "ApiGateways\Shopping.Aggregator\Shopping.Aggregator.csproj", "{8B08AA6D-6393-4F64-BD9B-267FEE6FE941}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -89,6 +91,10 @@ Global
 		{94122B17-472B-4FF6-9EC9-2B101C33F19A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94122B17-472B-4FF6-9EC9-2B101C33F19A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94122B17-472B-4FF6-9EC9-2B101C33F19A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B08AA6D-6393-4F64-BD9B-267FEE6FE941}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B08AA6D-6393-4F64-BD9B-267FEE6FE941}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B08AA6D-6393-4F64-BD9B-267FEE6FE941}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B08AA6D-6393-4F64-BD9B-267FEE6FE941}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -108,6 +114,7 @@ Global
 		{3898E64A-DB22-4598-8B25-3168ADA57F56} = {17CE9D10-2690-4091-B34B-82148B481EDC}
 		{221F7FB3-BF53-4FF5-8DEA-94ABDE7117EF} = {61DB6345-B9F6-4362-AEDC-BF3C3DB43090}
 		{94122B17-472B-4FF6-9EC9-2B101C33F19A} = {B04CEAE4-4643-4DBE-9D2A-EA6F79162C58}
+		{8B08AA6D-6393-4F64-BD9B-267FEE6FE941} = {B04CEAE4-4643-4DBE-9D2A-EA6F79162C58}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FA82DD37-A179-487E-9B96-60E3342806FB}
